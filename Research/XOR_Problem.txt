@@ -1,0 +1,18 @@
+Minsky and Papert (1969)
+ The XOR Problem
+
+ Through use of very basic 1 layer neurons (perceptron) AND and OR are easy to represent.
+   (See reference: /References/XOR_Problem.txt)
+
+But XOR is impossible to represent in this similar fashion.
+
+The weight equations for AND and OR are linear. Their inputs can be seperated into two 
+categories by a linear divide.
+
+However XOR cannot be seperated in this manner. Therefore it is linearly separable function.
+
+
+Goodfellow et al. found a solution using two nodes (hidden layer)
+ - This multi layer network allowed the two input [1,0] [0,1] to be collapsed into one node and 
+    thus became linearly separable
+

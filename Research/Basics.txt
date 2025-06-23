@@ -1,0 +1,33 @@
+What is it?
+ - a modern neural network is a network of small computing units, each
+   of which takes a vector of input values and produces a single output value.
+
+When to use?
+ - Nets that are very deep are particularly good at representation learning. For that reason
+   deep neural nets are the right tool for tasks that offer sufficient data to learn features
+   automatically.
+
+Heart of Neural Networks: 
+  - neural unit = bias + sumOf(weight * input)
+      (a = b + ∑wx)
+
+weight and input are often represented as vectors, so w·x
+
+With these functions, it is possible to represent a large range of values
+ Therefore it must be limited. 
+
+ - sigmoid: (0 to 1 is most convenient)
+     y = σ(w·x + b) = 1 / 1+exp(−(w·x + b))
+ - tanh: in almost every case, tanh is better
+     (-1 to 1): y = tanh(z) = e^z - e^-z / e^z + e^-z
+ - rectified linear unit or ReLU: most common and most simple
+     (0 to +∞): y = max(z,0)
+
+
+Potential Issues:
+  - Vanishing gradient: sigmoid and tanh
+
+  - ReLU: not diff. for all values
+
+
+ 
