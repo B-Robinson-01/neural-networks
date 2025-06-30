@@ -1,0 +1,10 @@
+A feedforward network is a multilayer network in which the units are connected with no cycles; 
+the outputs from units ineach layer are passed to units in the next higher layer, and no outputs 
+are passedback to lower layers.
+
+Contain at least 3 parts:
+ - Input units
+ - Hidden units
+ - Output units
+
+ 
