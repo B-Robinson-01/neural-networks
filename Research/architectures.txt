@@ -1,0 +1,21 @@
+Three main types of LLMs:
+  * Decoder
+  * Encoder
+  * Ecoder-Decoder
+
+Decoder:
+  takes input as series of tokens, and generates an output token one at a time
+    e.x: GPT, Claude, LLama, Mistral, etc.
+
+Encoder: (translates / classify)
+  takes as input a sequennce of toekns and outputs a vector representationn of each token
+    do not generate new text
+    often used to create classfiers
+
+Encoder-decoder:
+  takes a sequence of tokens and outputs a series of tokens
+    differences: output tokens might be very different token-set
+      ex: machine translation, speech recogition
+
+Transformers:
+  each input token is processed by columns of trasformer layers (subnetworks)
